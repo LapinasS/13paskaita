@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+   grid-auto-rows: minmax(100px, auto);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+
+}
+.grid-item:nth-child(odd) {
+    background-color: red;
+   
+}
+.grid-item:nth-child(even) {
+    background-color: rgb(28, 68, 199);
+  
+}
+.grid-inside-3 {
+    display: grid;
+    grid-template-columns: repeat (3,1fr);
+    
+
+}
+.grid-insider {
+    border: 1px black solid;
+    width: 20px;
+}
