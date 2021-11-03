@@ -16,11 +16,12 @@
 }
 .grid-inside-3 {
     display: grid;
-    grid-template-columns: repeat (3,1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em
     
 
 }
 .grid-insider {
     border: 1px black solid;
-    width: 20px;
+
 }
